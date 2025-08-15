@@ -1,4 +1,6 @@
 // components/ui/input.tsx
+import React from "react";
+
 export default function Input({ placeholder, value, onChange, className = "", ...props }) {
   return (
     <input

@@ -1,4 +1,6 @@
 // components/ui/badge.tsx
+import React from "react";
+
 export default function Badge({ children, variant = "default", className = "" }) {
   const variants = {
     default: "bg-slate-100 text-slate-800",
